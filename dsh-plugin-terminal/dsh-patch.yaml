@@ -1,0 +1,4 @@
+# DSH 终端控制插件
+- insert:
+    - id: terminal-control-v3
+      name: dsh-plugin-terminal/lib/entry2.js

@@ -1,0 +1,31 @@
+{
+  "name": "dsh-plugin-terminal",
+  "version": "1.0.0",
+  "description": "DSH 终端控制插件：提供持久 PTY 会话管理，支持 TUI 交互操作",
+  "main": "lib/entry2.js",
+  "types": "lib/entry2.d.ts",
+  "files": [
+    "lib",
+    "dsh-patch.yaml"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "dsh",
+    "terminal",
+    "pty",
+    "tui"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "dsh-patch.yaml"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "typescript": "7.0.2"
+  }
+}
